@@ -1,0 +1,54 @@
+/*
+ * File: KatrinaRepair.k
+ * ---------------------
+ * This program teaches Karel to repair the damage after Hurricane Katrina.
+ */
+
+/*
+ * The KatrinaRepair function rebuilds houses along a hurricane-ravaged coastline 
+ * containing only debris.  Karel moves along 1st street looking for beepers that 
+ * mark intersections on which houses once stood.  Each time it finds a beeper,
+ * Karel builds a new house on that corner.
+ */
+
+function KatrinaRepair() {
+   while (frontIsClear()) {
+      if (beepersPresent()) {
+		    //TODO : complete the main program
+      }
+      if (frontIsClear()) {
+         move();
+      }
+   }
+}
+
+/*
+ * The buildHouse function builds a beeper house on stilts.
+ * Precondition: Karel facing East at bottom of left stilt
+ * Postcondition: Karel facing East at bottom of right stilt
+ */
+
+function buildHouse() {
+	//TODO : code this function
+}
+
+
+/*
+ * The putThreeBeepers function creates a line of three beepers.
+ * Precondition: Karel is in the first square in the line
+ * Postcondition: Karel is in the last square in the line
+ */
+
+function putThreeBeepers() {
+	//TODO : code this function
+}
+
+/*
+ * The backUp function backs up one corner.
+ * Precondition: There is an open square behind Karel
+ * Postcondition: Karel is in that square facing the same direction.
+ */
+
+function backUp() {
+	//TODO : code this function
+}
