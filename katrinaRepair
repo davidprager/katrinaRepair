@@ -32,7 +32,6 @@ function buildHouse() {
 	//TODO : code this function
 }
 
-
 /*
  * The putThreeBeepers function creates a line of three beepers.
  * Precondition: Karel is in the first square in the line
