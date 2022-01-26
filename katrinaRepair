@@ -11,7 +11,7 @@
  * Karel builds a new house on that corner.
  */
 
-function KatrinsdfsdfaRepair() {
+function KatrinaRepair() {
    while (frontIsClear()) {
       if (beepersPresent()) {
 		    //TODO : complete the main program
