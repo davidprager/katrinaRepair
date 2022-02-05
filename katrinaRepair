@@ -8,7 +8,7 @@
  * The KatrinaRepair function rebuilds houses along a hurricane-ravaged coastline 
  * containing only debris.  Karel moves along 1st street looking for beepers that 
  * mark intersections on which houses once stood.  Each time it finds a beeper,
- * Karel builds a new house on that corer.
+ * Karel builds a new house on that corner.
  */
 
 function KatrinaRepair() {
